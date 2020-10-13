@@ -1,5 +1,13 @@
-h1{
+.header {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
+}
+
+.FormSearch {
+    border: 1px solid black;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100px;
+    height: auto;
 }

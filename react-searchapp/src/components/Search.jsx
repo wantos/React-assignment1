@@ -6,7 +6,7 @@ export default class Search extends Component {
     render() {
         return (
             <div>
-                <h1>MY SEARCH APP by Emma</h1>
+                <h1 class="header">MY SEARCH APP by Emma</h1>
                 <div className="FormSearch">
                     <form>
                         <input type="text" placeholder="Search.." onChange={e=>this.setState({output: e.target.value})}/>
